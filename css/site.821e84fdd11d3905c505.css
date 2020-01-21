@@ -1,0 +1,83 @@
+.u-home {
+  padding: 40px 20px;
+  word-break: break-all;
+  overflow-x: hidden;
+}
+.u-home .u-logo {
+  margin: 0 0 16px 16px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+.u-home .u-logo img {
+  width: 200px;
+  height: 54px;
+}
+.u-home .u-desc {
+  margin: 0 0 40px 16px;
+  font-size: 14px;
+  color: rgba(69, 90, 100, 0.6);
+}
+.u-home .u-title {
+  margin: 24px 0 12px 16px;
+  font-size: 14px;
+  color: rgba(69, 90, 100, 0.6);
+  font-weight: normal;
+}
+.u-home .u-demo {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background: #f7f8fa;
+  border-radius: 99px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.fishd-btn {
+  padding: 5px 10px;
+  background: #337eff;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.fishd-btn__danger {
+  background: #F24957;
+  border: 1px solid #F24957;
+}
+.fishd-btn__primary {
+  background: #337EFF;
+  border: 1px solid #337EFF;
+}
+.fishd-btn__default {
+  background: #FFF;
+  color: #000;
+  border: 1px solid #eee;
+}
+.fishd-btn__small {
+  font-size: 8px;
+}
+.fishd-btn__middle {
+  font-size: 12px;
+}
+.fishd-btn__large {
+  font-size: 20px;
+}
+
+.u-demo {
+  padding: 10px;
+}
+.u-demo-title {
+  font-size: 14px;
+  color: rgba(69, 90, 100, 0.6);
+  margin-bottom: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
