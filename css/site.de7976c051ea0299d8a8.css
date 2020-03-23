@@ -4,28 +4,25 @@
   overflow-x: hidden;
 }
 .u-home .u-logo {
-  margin: 0 0 16px 16px;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
+  text-align: center;
 }
 .u-home .u-logo img {
   width: 200px;
   height: 54px;
 }
 .u-home .u-desc {
-  margin: 0 0 40px 16px;
+  text-align: center;
   font-size: 14px;
-  color: rgba(69, 90, 100, 0.6);
+  color: #333;
+  padding: 20px 0;
 }
-.u-home .u-title {
+.u-home__title {
   margin: 24px 0 12px 16px;
   font-size: 14px;
   color: rgba(69, 90, 100, 0.6);
   font-weight: normal;
 }
-.u-home .u-demo {
+.u-home__demo {
   box-sizing: border-box;
   padding: 10px 20px;
   margin-bottom: 10px;
@@ -68,12 +65,34 @@
 }
 
 .u-demo {
-  padding: 10px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background: #f7f8fa;
 }
-.u-demo-title {
+.u-demo__header {
+  position: relative;
+  height: 40px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #fff;
+}
+.u-demo__back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+}
+.u-demo__title {
+  padding: 0 10px;
   font-size: 14px;
   color: rgba(69, 90, 100, 0.6);
   margin-bottom: 20px;
+}
+.u-demo__list {
+  padding: 0 10px;
 }
 
 * {
